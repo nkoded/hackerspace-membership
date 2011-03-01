@@ -1,0 +1,39 @@
+A hacker/makerspace membership app
+Initially developed by: 
+Distributed Hacker/Maker Network 
+http://dhmn.net
+
+***********************************************************************
+Entities
+***********************************************************************
+
+===user===
+userid
+userdescr
+preferredemail
+
+===usergroup(bridge)===
+userid
+groupid
+
+===group===
+groupid
+groupdescr
+
+===uservote(bridge)===
+userid
+voteid
+disposition(Y/N/A[bstain])
+
+===vote===
+voteid
+votedescr
+
+***********************************************************************
+
+-"user" entity will be created by porting Tiki userid's
+-a new and separate from Tiki mysql database will be created on the 
+same server as http://dhmn.net
+-
+-
+-
