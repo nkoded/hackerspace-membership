@@ -8,26 +8,34 @@ Entities
 ***********************************************************************
 
 ===user===
-userid
-userdescr
-preferredemail
+UserID
+FirstName
+LastName
+NickName
+Email
 
 ===usergroup(bridge)===
-userid
-groupid
+UserID
+GroupID
 
 ===group===
-groupid
-groupdescr
+GroupID
+GroupDescr
 
 ===uservote(bridge)===
-userid
-voteid
-disposition(Y/N/A[bstain])
+UserID
+VoteID
+Disposition(Y/N/A[bstain])
+Comment
 
 ===vote===
-voteid
-votedescr
+VoteID
+GroupID
+CreatorID
+CreateDate
+DeadlineDate
+VoteSummary
+VoteDescr
 
 ***********************************************************************
 
